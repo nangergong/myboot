@@ -10,7 +10,7 @@ public class HelloWord {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "hello,Spring boot!";
+        return "Spring boot!";
     }
 
     //带参数
